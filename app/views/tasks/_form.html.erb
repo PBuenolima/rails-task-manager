@@ -1,0 +1,7 @@
+<%= simple_form_for(@task) do |field| %>
+  <%= field.input :title %>
+  <%#= field.text_field :title %>
+  <%= field.input :details %>
+  <%= field.input :completed %>
+  <%= field.button :submit, class: 'special'  %>
+<% end %>
